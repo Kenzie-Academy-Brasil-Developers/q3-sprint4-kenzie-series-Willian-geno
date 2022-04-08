@@ -1,7 +1,7 @@
 from flask import Blueprint
 import app.controllers as controllers
 
-bp = Blueprint("series", __name__, url_prefix=("/users"))
+bp = Blueprint("series", __name__, url_prefix=("/series"))
 
 
 
